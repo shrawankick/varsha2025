@@ -1,11 +1,11 @@
-/*!
+/*
  * Project : simply-countdown
  * File : simplyCountdown
  * Date : 27/06/2015
  * License : MIT
  * Version : 1.3.2
  * Author : Vincent Loy <vincent.loy1@gmail.com>
- * Contributors : 
+ * Contributors :
  *  - Justin Beasley <JustinB@harvest.org>
  *  - Nathan Smith <NathanS@harvest.org>
  */
@@ -109,7 +109,7 @@
     };
 
     /**
-     * simplyCountdown, create and display the coundtown.
+     * simplyCountdown, create and display the countdown.
      * @param elt
      * @param args (parameters)
      */
