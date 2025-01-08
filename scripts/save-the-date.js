@@ -9,8 +9,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 title: 'Varun & Prathyusha Wedding',
                 location: 'Cherukuri Function Hall',
                 description: 'We Are Getting Married! Save the date for this special occasion.',
-                startDate: '2025-02-07T21:29:00', // YYYY-MM-DDTHH:mm:ss format
-                endDate: '2025-02-08T00:00:00' // YYYY-MM-DDTHH:mm:ss format
+                startDate: new Date('2025-02-07T21:29:00+05:30'), // Use ISO format with IST offset
+                endDate: new Date('2025-02-08T00:00:00+05:30') // Use ISO format with IST offset
+                //startDate: '2025-02-07T21:29:00', // YYYY-MM-DDTHH:mm:ss format
+                //endDate: '2025-02-08T00:00:00' // YYYY-MM-DDTHH:mm:ss format
             };
 
             // Construct a dynamic Google Calendar event URL
@@ -25,3 +27,6 @@ document.addEventListener('DOMContentLoaded', function () {
         console.error('Save the Date button not found!');
     }
 });
+
+
+
