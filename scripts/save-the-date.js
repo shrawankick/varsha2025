@@ -35,3 +35,4 @@ document.addEventListener('DOMContentLoaded', function () {
         console.error('Save the Date button not found!');
     }
 });
+
