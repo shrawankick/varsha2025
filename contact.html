@@ -144,7 +144,7 @@
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="images/bride.jpg" alt="groom" class="img-responsive">
+						<img src="images/brideH.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-bride">
 						<h3>Prathyusha</h3>
@@ -225,11 +225,28 @@
 	</div> -->
 		<!-- END map -->
 		
-			<div class="map-container">
-				<a href="https://maps.app.goo.gl/23sPfxiwuwbM27b96" target="_blank">
-					<img src="images/functionHallMap.jpg" alt="Map">
-				</a>
-			</div>
+		<style>
+			.map-container {
+				display: flex;
+				justify-content: center; /* Centers horizontally */
+				align-items: center; /* Centers vertically */
+				height: 100vh; /* Makes the div take the full height of the viewport */
+			}
+	
+			.map-container img {
+				max-width: 100%; /* Ensures the image scales responsively */
+				height: auto;
+				border-radius: 8px; /* Optional: Adds rounded corners to the image */
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for better visual effect */
+			}
+		</style>
+	</head>
+	<body>
+		<div class="map-container">
+			<a href="https://maps.app.goo.gl/23sPfxiwuwbM27b96" target="_blank">
+				<img src="images/functionHallMap.jpg" alt="Map">
+			</a>
+		</div>
 		
 
 	<footer id="fh5co-footer" role="contentinfo">
